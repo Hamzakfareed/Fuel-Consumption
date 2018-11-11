@@ -1,0 +1,28 @@
+.navbar {
+	background:blue;
+}
+
+.panel {
+	width:100%;
+}
+
+.panel .panel-heading {
+	color:white;
+	font-weight:bold;
+	background-color:blue;
+	
+}
+
+.panel .panel-body {
+	width:100%;
+	
+}
+
+.input-group {
+	width:100%;
+	margin-bottom:5px;
+}
+.errors {
+	color:red;
+	font-weight:bold;
+}

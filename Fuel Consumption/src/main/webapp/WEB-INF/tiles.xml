@@ -1,0 +1,24 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="default" template="/WEB-INF/default/default.jsp">
+		<put-attribute name="title" value="WebApp"></put-attribute>
+	</definition>
+
+	<definition name="web.home" extends="default">
+		<put-attribute name="content" value="/WEB-INF/jsp/index.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="web.fuel" extends="default">
+		<put-attribute name="content" value="/WEB-INF/jsp/addfuel.jsp"></put-attribute>
+	</definition>
+<definition name="driver.register" extends="default">
+		<put-attribute name="content" value="/WEB-INF/jsp/register.jsp"></put-attribute>
+	</definition>
+
+<definition name="driver.login" extends="default">
+		<put-attribute name="content" value="/WEB-INF/jsp/login.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
